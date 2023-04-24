@@ -1,0 +1,16 @@
+- [x] Introducción
+  - Binario
+  - Octales
+  - Hexagesimal
+
+- [x] Operadores
+  - AND
+  - OR
+  - XOR
+  - SHIFT LEFT
+  - SHIFT RIGHT
+  - COMPLEMENT
+- [x] Máscaras
+- [ ] Desplazamientos
+  - Right
+  - Left
