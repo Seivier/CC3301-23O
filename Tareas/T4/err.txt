@@ -1,0 +1,1 @@
+dicc-bad3.txt: el diccionario no contiene la llave celular

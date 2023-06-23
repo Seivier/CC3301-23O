@@ -1,0 +1,5 @@
+Sistema operativo utilizado
+Linux debian11mate 5.10.0-21-amd64 #1 SMP Debian 5.10.162-1 (2023-01-21) x86_64 GNU/Linux
+==== run-san ====
+gcc -g -DSAN=1 -fsanitize=address -fsanitize=undefined -Wall -Werror -pedantic -std=c18 -Wno-unused-function  test-elim-rango.c elim-rango.c -lm -o elim-rango.bin-san
+./elim-rango.bin-san

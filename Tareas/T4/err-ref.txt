@@ -1,0 +1,1 @@
+dicc-bad3.txt: linea 28 no posee : para terminar la llave
