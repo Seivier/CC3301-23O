@@ -1,0 +1,107 @@
+\documentclass[dcc]{fcfmcourse}
+\usepackage{teoria}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{longtable}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+\usepackage[utf8]{inputenc}
+
+\title[10]{Caché y Arquitecturas}
+\course[CC3301]{Programación de Software de Sistemas}
+\professor{Luis Mateu}
+\assistant{Vicente Gonzalez}
+\assistant{Iván Henríquez}
+\assistant{Blaz Korecic}
+% Si pasas el comando usedate a la clase, la fecha aparecerá bajo la lista de auxiliares.
+% Puedes usar el formato de fecha por defecto de latex (y traducirla usando babel)
+% o puedes escribir lo que quieras con el comando \date.
+% \date{1 de Septiembre, 2015}
+
+
+\begin{document}
+\maketitle
+
+\begin{problems}
+
+\problem La figura muestra un extracto del contenido de un cache de 128 KB de 2 grados de asociativad y líneas de 16 bytes. El computador posee un bus de direcciones de 20 bits. El cache se organiza en 2 bancos, cada uno con 4096 líneas. Por ejemplo en la línea 4f2 (en hexadecimal) del banco izquierdo se almacena la línea de memoria que tiene como etiqueta 04f2 (es decir, la línea que va de la dirección 04f20 en hexadecimal a la dirección 04f2f)
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lllll}
+\hline
+& Banco & 1 & Banco & 2 \\ \hline
+línea & etiqueta & contenido & etiqueta & contenido &
+301 & 4301 & & 2301 & \\
+4f2 & 04f2 & & a4f2 & \\
+c36 & dc36 & & 1c36 & \\ \hline
+\end{tabular}
+\end{table}
+
+Un programa accede a las siguientes direcciones de memoria:
+
+\begin{itemize}
+    \item a4f28
+    \item dc360
+    \item 53014
+    \item 2301c
+    \item 1c360
+    \item ec368
+    \item 84f20
+    \item dc36c
+\end{itemize}
+
+
+Conteste (i) cuál es la porción de la dirección que se usa como etiqueta, $(ii)$ cuál
+es la porción de la dirección que se usa para indexar el cache, y $(iii)$ qué accesos
+a la memoria son aciertos en el cache y cuáles son desaciertos, mostrando un
+posible estado final del cache
+
+\newpage
+\problem Considere el siguiente programa en assembly:
+
+\begin{verbatim}
+a. lw x7, 4(x5)
+b. add x9, x2, x3
+c. blt x0, x7, p
+d. slli x9, x3, 1
+...
+p. ori x5, x9, 7
+q. srli x1, x5, 2
+r. and x10, x7, x9
+s. xori x8, -1, x1
+\end{verbatim}
+
+Haga una tabla de la ejecución de estas instrucciones en:
+\begin{enumerate}
+    \item[1.] Una arquitectura microprogramada.
+    \item[2.] Una arquitectura en pipeline con etapas fetch, decode y execute.
+    \item[3.] Una arquitectura superescalar, con 2 pipelines con las etapas de 2.
+\end{enumerate}
+
+\end{problems}
+\end{document}

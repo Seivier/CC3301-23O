@@ -1,0 +1,228 @@
+PWD c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado
+INPUT C:\Users\bkorecic\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\Auxiliar1.tex
+OUTPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\Auxiliar1.log
+INPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\fcfmcourse.cls
+INPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\fcfmcourse.cls
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\enumerate.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\enumerate.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\iftex.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\iftex.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\forloop\forloop.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\forloop\forloop.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdfmode.def
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdfmode.def
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse-generic.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse-generic.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\environ\environ.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\environ\environ.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\trimspaces\trimspaces.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\trimspaces\trimspaces.sty
+INPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\teoria.sty
+INPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\teoria.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\vaucanson-g\vaucanson-g.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\vaucanson-g\vaucanson-g.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\vaucanson-g\VCColor-names.def
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\vaucanson-g\VCColor-names.def
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pstricks\pstricks.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pstricks\pstricks.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\pst-xkey.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\pst-xkey.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pstricks\pstricks.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pstricks\pstricks.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pstricks\pst-fp.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pstricks\pstricks.con
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pstricks\pstricks-arrows.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pstricks\pst-fp.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pstricks\pst-fp.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pst-node\pst-node.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pst-node\pst-node.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pst-node\pst-node.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pst-node\pst-node.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pst-plot\pst-plot.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pst-plot\pst-plot.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\pst-xkey.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\pst-xkey.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multido\multido.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multido\multido.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\multido\multido.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\multido\multido.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pst-plot\pst-plot.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pst-plot\pst-plot.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pst-tools\pst-tools.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pstricks-add\pstricks-add.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pst-arrow\pst-arrow.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pst-3d\pst-3d.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pst-math\pst-math.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pst-coil\pst-coil.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pst-coil\pst-coil.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pst-coil\pst-coil.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pst-coil\pst-coil.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pst-node\pst-node.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pst-3d\pst-3d.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pst-3d\pst-3d.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pst-3d\pst-3d.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pst-3d\pst-3d.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\vaucanson-g\Vaucanson-G.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\vaucanson-g\VCPref-default.tex
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\Auxiliar1.aux
+INPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\Auxiliar1.aux
+OUTPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\Auxiliar1.aux
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\grfext\grfext.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\grfext\grfext.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt10.tfm
+INPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\logos\fcfm_dcc.eps
+INPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\logos\fcfm_dcc.eps
+INPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\logos\fcfm_dcc.eps
+INPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\logos\fcfm_dcc-eps-converted-to.pdf
+INPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\logos\fcfm_dcc-eps-converted-to.pdf
+INPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\logos\fcfm_dcc.eps
+INPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\logos\fcfm_dcc-eps-converted-to.pdf
+INPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\logos\fcfm_dcc-eps-converted-to.pdf
+OUTPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\Auxiliar1.pdf
+INPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\logos\fcfm_dcc-eps-converted-to.pdf
+INPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\logos\fcfm_dcc-eps-converted-to.pdf
+INPUT C:\Users\bkorecic\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT c:\Users\bkorecic\Desktop\home\tmp\pss\aux3\enunciado\Auxiliar1.aux
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Users\bkorecic\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmtt10.pfb

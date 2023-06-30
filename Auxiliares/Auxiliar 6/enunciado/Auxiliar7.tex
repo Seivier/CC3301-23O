@@ -1,0 +1,54 @@
+\documentclass[dcc]{fcfmcourse}
+\usepackage{teoria}
+\usepackage{minted}
+\usepackage{xcolor}
+\usepackage{framed}
+\usepackage[utf8]{inputenc}
+\definecolor{LightGray}{gray}{0.95}
+
+\title[6]{Archivos}
+\course[CC3301]{Programación de Software de Sistemas}
+\professor{Luis Mateu}
+\assistant{Vicente González}
+\assistant{Iván Henríquez}
+% \assistant{Blaz Korecic}
+% Si pasas el comando usedate a la clase, la fecha aparecerá bajo la lista de auxiliares.
+% Puedes usar el formato de fecha por defecto de latex (y traducirla usando babel)
+% o puedes escribir lo que quieras con el comando \date.
+% \date{1 de Septiembre, 2015}
+
+\begin{document}
+\maketitle
+
+\begin{problems}
+\problem \textbf{(P1 C2 Otoño 2016)}
+Un archivo contiene un diccionario en el siguiente formato:
+
+\begin{center}
+\begin{minipage}{0.8\textwidth}
+\begin{framed}
+  casa:edificación construida para ser habitada:\\
+  lluvia:condensación del vapor de agua contenida en las nubes:\\
+  embarcación:todo tipo de artilugio capaz de navegar sobre o bajo el agua:\\
+  alimento:sustancia ingerida por un ser vivo:\\
+  ...etc...
+\end{framed}
+\end{minipage}
+\end{center}
+
+El primer caracter ``:'' separa la palabra de su definición. El segundo ``:'' termina la definición. Todas las líneas del archivo contienen un número fijo de caracteres para que sea sencillo hacer acceso directo con \texttt{fseek}. Las palabras están desordenadas en el archivo. Este archivo no cabe en la memoria del computador. Programe la siguiente función:
+
+\begin{center}
+  \texttt{void modificar(char *nom\_dic, char *palabra, char *def, int n\_lin, int ancho);}
+\end{center}
+
+Esta función cambia la definición de \texttt{palabra} por \texttt{def} en el diccionario almacenado en el archivo \texttt{nom\_dic}. El parámetro \texttt{n\_lin} es el número de líneas del archivo (y por lo tanto el número de palabras y definiciones) y \texttt{ancho} es el número de caracteres de cada línea en el archivo.
+
+\textbf{Bonus:} Ahora las líneas tienen un largo variable, y ya no está el ``:'' del final de cada línea. Tampoco se conoce la cantidad de líneas del archivo, y se agrega la condición de que si no se encuentra la palabra, entonces se debe agregar al final. Programe la función:
+
+\begin{center}
+  \texttt{void modificar(char *nom\_dic, char *palabra, char *def);}
+\end{center}
+
+\end{problems}
+\end{document}

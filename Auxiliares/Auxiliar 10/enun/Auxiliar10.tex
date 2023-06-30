@@ -1,0 +1,67 @@
+\documentclass[dcc]{fcfmcourse}
+\usepackage{teoria}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{longtable}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+\usepackage[utf8]{inputenc}
+
+\title[10]{Directorios Unix}
+\course[CC3301]{Programación de Software de Sistemas}
+\professor{Luis Mateu}
+\assistant{Vicente González}
+\assistant{Iván Henríquez}
+% \assistant{Blaz Korecic}
+% Si pasas el comando usedate a la clase, la fecha aparecerá bajo la lista de auxiliares.
+% Puedes usar el formato de fecha por defecto de latex (y traducirla usando babel)
+% o puedes escribir lo que quieras con el comando \date.
+% \date{1 de Septiembre, 2015}
+
+
+\begin{document}
+\maketitle
+
+\begin{problems}
+
+\problem \textbf{Búsqueda}\\
+Hace poco fue la tarea 3 de PSS, y usted la hizo a altas horas de la noche. Una vez que la
+terminó, se fue a dormir, y al día siguiente no se acuerda de en qué carpeta dejó la tarea.
+Naturalmente, usted decide crear un programa para encontrarla, que recorra recursivamente
+todas las carpetas (también conocidas como directorios) hasta encontrarla. El programa debe
+imprimir todos los archivos que encuentre que tengan el nombre “t3.c”, sin incluir carpetas
+que tengan ese nombre. No debe seguir links simbólicos. Para hacer el recorrido utilice la
+función \texttt{chdir}.
+
+\problem \textbf{Permisos}\\
+Haga un programa llamado \texttt{cualquierusr.c} que busque en un directorio si hay archivos para
+los que todos los usuarios tengan permisos de lectura y escritura. Si los encuentra, deber´ıa
+imprimirlos en pantalla.
+
+
+\end{problems}
+\end{document}

@@ -1,0 +1,47 @@
+\hypertarget{circuitos-y-cachuxe9}{%
+\section{Circuitos y Caché}\label{circuitos-y-cachuxe9}}
+
+\hypertarget{circuitos}{%
+\subsection{Circuitos}\label{circuitos}}
+
+Hacer en logisim un circuito que genere los números de Fibonacci
+
+\hypertarget{cachuxe9}{%
+\subsection{Caché}\label{cachuxe9}}
+
+La figura muestra un extracto del contenido de un cache de 128 KB de 2
+grados de asociativad y líneas de 16 bytes. El computador posee un bus
+de direcciones de 20 bits. El cache se organiza en 2 bancos, cada uno
+con 4096 líneas. Por ejemplo en la línea 4f2 (en hexadecimal) del banco
+izquierdo se almacena la línea de memoria que tiene como etiqueta 04f2
+(es decir, la línea que va de la dirección 04f20 en hexadecimal a la
+dirección 04f2f)
+
+\begin{longtable}[]{@{}lllll@{}}
+\toprule()
+& Banco & 1 & Banco & 2 \\
+\midrule()
+\endhead
+línea & etiqueta & contenido & etiqueta & contenido \\
+301 & 4301 & & 2301 & \\
+4f2 & 04f2 & & a4f2 & \\
+c36 & dc36 & & 1c36 & \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{arquitecturas}{%
+\subsection{Arquitecturas}\label{arquitecturas}}
+
+Considere el siguiente programa en assembly:
+
+\begin{verbatim}
+a. lw x7, 4(x5)
+b. add x9, x2, x3
+c. blt x0, x7, p
+d. slli x9, x3, 1
+...
+p. ori x5, x9, 7
+q. srli x1, x5, 2
+r. and x10, x7, x9
+s. xori x8, -1, x1
+\end{verbatim}

@@ -1,0 +1,261 @@
+\documentclass[dcc,sol]{fcfmcourse}
+\usepackage{teoria}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{longtable}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+\usepackage[utf8]{inputenc}
+
+\title[10]{Caché y Arquitecturas}
+\course[CC3301]{Programación de Software de Sistemas}
+\professor{Luis Mateu}
+\assistant{Vicente Gonzalez}
+\assistant{Iván Henríquez}
+% \assistant{Blaz Korecic}
+% Si pasas el comando usedate a la clase, la fecha aparecerá bajo la lista de auxiliares.
+% Puedes usar el formato de fecha por defecto de latex (y traducirla usando babel)
+% o puedes escribir lo que quieras con el comando \date.
+% \date{1 de Septiembre, 2015}
+
+
+\begin{document}
+\maketitle
+
+\begin{problems}
+
+\problem La figura muestra un extracto del contenido de un cache de 128 KB de 2 grados de asociativad y líneas de 16 bytes. El computador posee un bus de direcciones de 20 bits. El cache se organiza en 2 bancos, cada uno con 4096 líneas. Por ejemplo en la línea 4f2 (en hexadecimal) del banco izquierdo se almacena la línea de memoria que tiene como etiqueta 04f2 (es decir, la línea que va de la dirección 04f20 en hexadecimal a la dirección 04f2f)
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lllll}
+\hline
+& Banco & 1 & Banco & 2 \\ \hline
+línea & etiqueta & contenido & etiqueta & contenido &
+301 & 4301 & & 2301 & \\
+4f2 & 04f2 & & a4f2 & \\
+c36 & dc36 & & 1c36 & \\ \hline
+\end{tabular}
+\end{table}
+
+Un programa accede a las siguientes direcciones de memoria:
+
+\begin{itemize}
+    \item a4f28
+    \item dc360
+    \item 53014
+    \item 2301c
+    \item 1c360
+    \item ec368
+    \item 84f20
+    \item dc36c
+\end{itemize}
+
+
+Conteste (i) cuál es la porción de la dirección que se usa como etiqueta, $(ii)$ cuál
+es la porción de la dirección que se usa para indexar el cache, y $(iii)$ qué accesos
+a la memoria son aciertos en el cache y cuáles son desaciertos, mostrando un
+posible estado final del cache
+
+\begin{solution}
+\begin{enumerate}
+    \item[i.] Una dirección de memoria D se almacena dentro de la linea D/16 de la DRAM, que es la que conocemos como "Etiqueta de linea", esta se utiliza en la memoria caché para representar a las 16 direcciones de memoria que se almacenan en dicha linea en la DRAM. (Por ejemplo: la etiqueta 04f2 es la linea de la DRAM que almacena las direcciones desde la 04f20 hasta la 04f2f). En la memoria caché se almacena el contenido de estas 16 direcciones, bajo la etiqueta de linea.
+    \item[ii.] Teniendo la Etiqueta de Linea L, esta se indexa en la memoria caché en la linea L\%C, siendo C la cantidad de lineas de la memoria caché, en este caso 4096. Tenemos entonces que, siguiendo el ejemplo anterior, 0x04f2 \% 0x1000 = 4f2 es la linea del caché donde se almacenará el contenido de las direcciones 04f20 hasta la 04f2f, bajo la etiqueta 04f2.
+    \item[iii.] 
+    Dicho todo esto, para saber si la consulta de una dirección es un exito o no en la memoria caché debemos proceder de forma inversa.
+    \begin{itemize}
+        \item a4f28, de estar almacenada en la memoria caché, solo puede estar en la linea 4f2, vamos a esa linea en la tabla y revisamos las etiquetas de ambos bancos, si alguna de ellas es a42f, la consulta es un acierto, en este caso, lo es, pues está en el Banco 2.
+        \item dc360 es un acierto, linea c36 Banco 1.
+        \item 53014 es un desacierto, no se encuentra en ningun banco de la linea 301, por lo tanto se guarda el contenido de las 16 direcciones que van desde la 53010 hasta la 5301f bajo la etiqueta 5301 en alguno de los 2 bancos sin preferencia particular (ustedes pueden reemplazar cualquiera), supongamos que en el 2. Nos queda el caché de la siguiente forma:
+
+        \begin{table}[h]
+        \centering
+        \begin{tabular}{lllll}
+        \hline
+        & Banco & 1 & Banco & 2 \\ \hline
+        línea & etiqueta & contenido & etiqueta & contenido &
+        301 & 4301 & & 5301 & \\
+        4f2 & 04f2 & & a4f2 & \\
+        c36 & dc36 & & 1c36 & \\ \hline
+        \end{tabular}
+        \end{table}
+                    
+        \item 2301c en nuestro caso particular es un desacierto porque justo lo quitamos en la consulta anterior, en caso de haber reemplazado el Banco 1 antes, esta consulta sería un acierto. Dejaremos la linea esta vez en el Banco 1:
+
+        \begin{table}[h]
+        \centering
+        \begin{tabular}{lllll}
+        \hline
+        & Banco & 1 & Banco & 2 \\ \hline
+        línea & etiqueta & contenido & etiqueta & contenido &
+        301 & 2301 & & 5301 & \\
+        4f2 & 04f2 & & a4f2 & \\
+        c36 & dc36 & & 1c36 & \\ \hline
+        \end{tabular}
+        \end{table}
+        
+        \item 1c360 es un acierto
+
+        \newpage
+        \item ec368 es un desacierto, lo almacenaremos en el Banco 2 (de nuevo, ustedes pueden elegir el 1 sin problemas)
+
+        \begin{table}[h]
+        \centering
+        \begin{tabular}{lllll}
+        \hline
+        & Banco & 1 & Banco & 2 \\ \hline
+        línea & etiqueta & contenido & etiqueta & contenido &
+        301 & 2301 & & 5301 & \\
+        4f2 & 04f2 & & a4f2 & \\
+        c36 & dc36 & & ec36 & \\ \hline
+        \end{tabular}
+        \end{table}
+        
+        \item 84f20 es un desacierto, almacenaremos la linea en el banco 1:
+
+        \begin{table}[h]
+        \centering
+        \begin{tabular}{lllll}
+        \hline
+        & Banco & 1 & Banco & 2 \\ \hline
+        línea & etiqueta & contenido & etiqueta & contenido &
+        301 & 2301 & & 5301 & \\
+        4f2 & 84f2 & & a4f2 & \\
+        c36 & dc36 & & ec36 & \\ \hline
+        \end{tabular}
+        \end{table}
+        
+        
+        \item dc36c es un acierto. La tabla anterior es un posible resultado final del caché
+    \end{itemize}
+\end{enumerate}
+    
+\end{solution}
+
+\problem Considere el siguiente programa en assembly:
+
+\begin{verbatim}
+a. lw x7, 4(x5)
+b. add x9, x2, x3
+c. blt x0, x7, p
+d. slli x9, x3, 1
+...
+p. ori x5, x9, 7
+q. srli x1, x5, 2
+r. and x10, x7, x9
+s. xori x8, -1, x1
+\end{verbatim}
+
+Haga una tabla de la ejecución de estas instrucciones en:
+\begin{enumerate}
+    \item[1.] Una arquitectura microprogramada.
+    \item[2.] Una arquitectura en pipeline con etapas fetch, decode y execute.
+    \item[3.] Una arquitectura superescalar, con 2 pipelines con las etapas de 2.
+\end{enumerate}
+
+\begin{solution}
+Para este problema asumiremos que el salto condicional del programa ocurrirá, y para las arquitecturas en pipeline y superescalar, que son capaces de predecirlo correctamente
+    \begin{enumerate}
+        \item[1.] En una arquitectura microprogramada, tenemos una sola componente que se encarga de hacer fetch, decode y execute de cada instrucción, por lo que en cada ciclo del reloj una instruccion pasa por una de las 3 fases secuencialmente y solo puede haber una en cualquiera de las 3. Nos queda entonces:
+
+        \begin{table}[h]
+        \centering
+        \begin{tabular}{|l|l|l|l|}
+        \hline
+        Ciclo & fetch & decode & execute \\ \hline
+        1     & a     &        &         \\ \hline
+        2     &       & a      &         \\ \hline
+        3     &       &        & a       \\ \hline
+        4     & b     &        &         \\ \hline
+        5     &       & b      &         \\ \hline
+        6     &       &        & b       \\ \hline
+        7     & c     &        &         \\ \hline
+        8     &       & c      &         \\ \hline
+        9     &       &        & c       \\ \hline
+        10    & p     &        &         \\ \hline
+        11    &       & p      &         \\ \hline
+        12    &       &        & p       \\ \hline
+        13    & q     &        &         \\ \hline
+        14    &       & q      &         \\ \hline
+        15    &       &        & q       \\ \hline
+        16    & r     &        &         \\ \hline
+        17    &       & r      &         \\ \hline
+        18    &       &        & r       \\ \hline
+        19    & s     &        &         \\ \hline
+        20    &       & s      &         \\ \hline
+        21    &       &        & s       \\ \hline
+        \end{tabular}
+        \end{table}
+
+        La ejecución de la instrucción c nos hace saltar a la instrucción p, se hace fetch de p en lugar de d, que sería la siguiente instrucción en caso de no haber salto.
+
+        \newpage
+        \item[2.] En una arquitectura en pipeline, tenemos componentes dedicadas a hacer fetch, decode y execute de las instrucciones por separado. Por lo tanto, es posible hacer una de cada una en un solo ciclo del reloj. Recordemos que en este caso asumiremos que trabajamos bajo una arquitectura predictiva, por lo que nos queda la tabla:
+
+        \begin{table}[h]
+        \centering
+        \begin{tabular}{|l|l|l|l|}
+        \hline
+        Ciclo & fetch & decode & execute \\ \hline
+        1     & a     &        &         \\ \hline
+        2     & b     & a      &         \\ \hline
+        3     & c     & b      & a       \\ \hline
+        4     & p     & c      & b       \\ \hline
+        5     & q     & p      & c       \\ \hline
+        6     & r     & q      & p       \\ \hline
+        7     & s     & r      & q       \\ \hline
+        8     &       & s      & r       \\ \hline
+        9     &       &        & s       \\ \hline
+        \end{tabular}
+        \end{table}
+
+        En este caso, luego del fetch de c se hace fetch de p, pues es posible que c realice el salto hacia allá ,bajo nuestros supuestos efectivamente ocurre, y para cuando se ejecuta c es posible ejecutar p inmediatamente después.
+
+        \item[3.] Para la arquitectura superescalar de 2 pipelines, tenemos 2 componentes para cada una de las fases, por lo que es posible procesar hasta 6 instrucciones a la vez. En este caso, es importante tener cuidado con los saltos y las dependencias, es decir, cuando una instrucción altera un registro que otra instrucción va a usar en el mismo ciclo del reloj. Nos queda entonces:
+
+        \begin{table}[h]
+        \centering
+        \begin{tabular}{|l|l|l|l|}
+        \hline
+        Ciclo & fetch & decode & execute \\ \hline
+        1     & ab    &        &         \\ \hline
+        2     & cd    & ab     &         \\ \hline
+        3     & pq    & cd     & ab      \\ \hline
+        4     & rs    & pq     & c       \\ \hline
+        5     &       & (q)    & p       \\ \hline
+        6     &       & rs     & q       \\ \hline
+        7     &       &        & rs      \\ \hline
+        \end{tabular}
+        \end{table}
+
+        En este caso, luego de hacer fetch de c y d, se hace fetch de pq, pues se predice el salto a p por la ejecución de c, luego, cuando toca hacer execute de c y d (linea 4) solo se ejecuta c, pues al saltar, no debe ejecutarse d. Para el siguiente ciclo, gracias a la predicción, puede ejecutarse p. Ojo con que p y q no se ejecutan a la vez porque p altera el registro x5, que es usado por q. El resto de la ejecución ocurre normalmente
+        
+    \end{enumerate}
+\end{solution}
+
+\end{problems}
+\end{document}

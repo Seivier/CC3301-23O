@@ -1,0 +1,1 @@
+add_executable(a12p "pauta/main.c" "pauta/p1.c")

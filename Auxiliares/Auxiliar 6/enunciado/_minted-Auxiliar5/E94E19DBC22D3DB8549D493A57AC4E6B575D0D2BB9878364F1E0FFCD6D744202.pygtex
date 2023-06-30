@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{k}{typedef} \PYG{k}{struct} \PYG{n}{nodo} \PYG{p}{\PYGZob{}}
+    \PYG{k+kt}{int} \PYG{n}{x}\PYG{p}{;}
+    \PYG{k}{struct} \PYG{n}{nodo} \PYG{o}{*}\PYG{n}{izq}\PYG{p}{,} \PYG{o}{*}\PYG{n}{der}\PYG{p}{;}
+  \PYG{p}{\PYGZcb{}} \PYG{n}{Nodo}\PYG{p}{;}
+\end{Verbatim}
