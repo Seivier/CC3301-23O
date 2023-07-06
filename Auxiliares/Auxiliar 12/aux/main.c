@@ -1,26 +1,24 @@
-#include <string.h>
 #include <stdio.h>
-#include <stdlib.h>
 
-// P1
 char* prox_pal(char** pfrase);
 
-// P2
 typedef struct nodo {
 	char x;
-	struct nodo* izq, *der;
+	struct nodo *izq, *der;
 } Nodo;
 
 Nodo* abb(Nodo* u, int i, int j);
-void printNodo(Nodo* u);
 
-// P4
-int maxArreglo(int a[], int n, int p);
+void printNodo(Nodo* u) {
+	if (!u) return;
+	printNodo(u->izq);
+	printf(" %c ", u->x);
+	printNodo(u->der);
+}
 
 int main(int argc, char** argv) {
-
 	// P1
-	char frase[] = " hola   que  ";
+	char frase[] = " hola   que";
 	char* pfrase = frase;
 	char* pal;
 	pal = prox_pal(&pfrase);
@@ -31,6 +29,7 @@ int main(int argc, char** argv) {
 	printf("'%s' '%s'\n", pal, pfrase);
 
 
+	// P2
 	// P2
 	Nodo n1 = {'a', NULL, NULL};
 	Nodo n2 = {'b', NULL, NULL};
@@ -44,20 +43,4 @@ int main(int argc, char** argv) {
 	Nodo* raiz = abb(u, 0, 7);
 	printNodo(raiz);
 	printf("\n");
-
-	// P4
-//	const int SIZE = 100000000;
-//	int *a = malloc(SIZE*sizeof(int));
-//	for(int i=0; i<SIZE; i++) a[i] = i;
-//	printf("max es %d\n", maxArreglo(a, SIZE, 4));
-}
-
-
-void printNodo(Nodo* u) {
-	if (u == NULL) return;
-	printf("(");
-	printNodo(u->izq);
-	printf("%c", u->x);
-	printNodo(u->der);
-	printf(")");
 }
